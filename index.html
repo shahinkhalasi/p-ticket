@@ -65,7 +65,8 @@
                     <section class="items-center justify-center">
                         <!-- fare info -->
                         <img src="./images/fare.png" alt="">
-                        <h2 class="text-4xl font-raleway font-bold text-black">550 Taka</h2>
+                        <h2 class="text-4xl font-raleway font-bold text-black"><span
+                            id="seat-price" class="">550</span> Taka</h2>
                         <p class="font-raleway font-bold text-slate-600 text-3xl">Per Seat</p>
                     </section>
                 </div>
@@ -76,29 +77,110 @@
                     <div class="w-[60%]">
                         <h3>Select Your Seat</h3>
                         <hr>
-                        <div class="flex justify-between">
+                        <div class="flex justify-around">
                             <img src="./images/seat-gray.png" alt="">
                             <img src="./images/seat-green.png" alt="">
                         </div>
+                        <hr>
                         <div>
-                            <div class="flex justify-between">
-                                <div><kbd class="kbd">A1</kbd>
-                                    <kbd class="kbd">A2</kbd>
+                            <div class="flex justify-around">
+                                <div><kbd class="kbd seats">A1</kbd>
+                                    <kbd class="kbd seats">A2</kbd>
                                 </div>
                                 <div>
-                                    <kbd class="kbd">A3</kbd>
-                                    <kbd class="kbd">A4</kbd>
+                                    <kbd class="kbd seats">A3</kbd>
+                                    <kbd class="kbd seats">A4</kbd>
                                 </div>
                             </div>
 
-                            <div class="flex justify-between">
+                            <div class="flex justify-around">
                                 <div>
-                                    <kbd class="kbd">B1</kbd>
-                                    <kbd class="kbd">B2</kbd>
+                                    <kbd class="kbd seats">B1</kbd>
+                                    <kbd class="kbd seats">B2</kbd>
                                 </div>
                                 <div>
-                                    <kbd class="kbd">B3</kbd>
-                                    <kbd class="kbd">B4</kbd>
+                                    <kbd class="kbd seats">B3</kbd>
+                                    <kbd class="kbd seats">B4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">C1</kbd>
+                                    <kbd class="kbd seats">C2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">C3</kbd>
+                                    <kbd class="kbd seats">C4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">D1</kbd>
+                                    <kbd class="kbd seats">D2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">D3</kbd>
+                                    <kbd class="kbd seats">D4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">E1</kbd>
+                                    <kbd class="kbd seats">E2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">E3</kbd>
+                                    <kbd class="kbd seats">E4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">F1</kbd>
+                                    <kbd class="kbd seats">F2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">F3</kbd>
+                                    <kbd class="kbd seats">F4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">G1</kbd>
+                                    <kbd class="kbd seats">G2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">G3</kbd>
+                                    <kbd class="kbd seats">G4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">H1</kbd>
+                                    <kbd class="kbd seats">H2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">H3</kbd>
+                                    <kbd class="kbd seats">H4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">I1</kbd>
+                                    <kbd class="kbd seats">I2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">I3</kbd>
+                                    <kbd class="kbd seats">I4</kbd>
+                                </div>
+                            </div>
+                            <div class="flex justify-around">
+                                <div>
+                                    <kbd class="kbd seats">J1</kbd>
+                                    <kbd class="kbd seats">J2</kbd>
+                                </div>
+                                <div>
+                                    <kbd class="kbd seats">J3</kbd>
+                                    <kbd class="kbd seats">J4</kbd>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +201,7 @@
                         <hr>
                         <div class="flex justify-between">
                             <h3>Total Price</h3>
-                            <h3>BDT <span id="">0</span></h3>
+                            <h3>BDT <span id="total-cost">0</span></h3>
                         </div>
 
                         <div class="coupon-code">
@@ -130,7 +212,7 @@
 
                         <div class="flex justify-between">
                             <h3>Grand Total</h3>
-                            <h3>BDT <span id="">0</span></h3>
+                            <h3>BDT <span id="grand-total">0</span></h3>
                         </div>
 
                     
